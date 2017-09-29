@@ -49,6 +49,9 @@ table {
   margin: 0 auto;
   clear: both; }
 
+.medium-10 {
+  width: 80%; }
+
 .medium-6 {
   width: 100%; }
 
@@ -59,10 +62,29 @@ table {
   width: 25%;
   float: left; }
 
+.medium-centered {
+  margin: 0 auto; }
+
+.text-center {
+  text-align: center; }
+
 /*TYPOGRAPHY*/
+h1, h2, h3, p {
+  color: #4A4A4A; }
+
 h1 {
   font-family: "Fjalla One", sans-serif;
-  font-size: 40px; }
+  font-size: 40px;
+  color: #ffffff; }
+
+h2 {
+  font-family: "Fjalla One", sans-serif;
+  font-size: 24px;
+  margin-bottom: 40px; }
+
+h3 {
+  font-family: "Fjalla One", sans-serif;
+  font-size: 18px; }
 
 p {
   font-family: "Cantarell", sans-serif; }
@@ -81,17 +103,29 @@ p {
   width: 100%;
   padding-top: 25px;
   text-align: center;
-  color: #ffffff; }
+  color: #ffffff;
+  margin-top: 40px; }
 
 .main-image {
   width: 100%; }
+
+.intro {
+  padding: 10px 0; }
+
+.listing {
+  padding: 0 20px; }
 
 /*------------------------
     MEDIA QUERIES
 -------------------------*/
 @media only screen and (max-width: 639px) {
   h1 {
-    font-size: 35px; } }
+    font-size: 35px; }
+  .small-6 {
+    width: 50%;
+    float: left; }
+  .small-hide {
+    display: none; } }
 
 @media only screen and (max-width: 500px) {
   h1 {
