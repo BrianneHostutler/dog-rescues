@@ -49,13 +49,13 @@ table {
   margin: 0 auto;
   clear: both; }
 
-.columns-6 {
+.medium-6 {
   width: 100%; }
 
-.columns-4 {
+.medium-4 {
   width: 33.3%; }
 
-.columns-3 {
+.medium-3 {
   width: 25%;
   float: left; }
 
@@ -68,6 +68,14 @@ p {
   font-family: "Cantarell", sans-serif; }
 
 .header-wrapper {
+  background-color: #4ABDAC;
+  padding-bottom: 25px;
+  width: 100%;
+  padding-top: 25px;
+  text-align: center;
+  color: #ffffff; }
+
+.footer-wrapper {
   background-color: #4ABDAC;
   padding-bottom: 25px;
   width: 100%;
