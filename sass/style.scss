@@ -98,7 +98,8 @@ h1 {
 h2 {
 	font-family: $sanscond;
 	font-size: 24px;
-	margin-bottom: 40px;
+	margin-top:20px;
+
 }
 h3 {
 	font-family: $sanscond;
@@ -116,13 +117,18 @@ p,li,a {
 	color:$white;
 }
 .footer-wrapper {
-		background-color: $teal;
+	background-color: $teal;
 	padding-bottom: 25px;
 	width:100%;
 	padding-top:25px;
-	text-align: center;
-	color:$white;
+	
+	
 	margin-top: 40px;
+	p {
+		color:$white;
+		line-height: 22px;
+		text-align: center;
+	}
 }
 
 
@@ -135,6 +141,13 @@ p,li,a {
 
 .intro {
 	padding: 10px 0; 
+	p {
+		line-height: 22px;
+		margin-bottom: 20px;
+	}
+	a {
+		color:$orange;
+	}
 }
 
 
@@ -150,13 +163,14 @@ p,li,a {
 	li {
 		margin-bottom: 25px;
 		font-size: 14px;
+		line-height: 20px;
 		a {
 			color:$orange;
 
 		}
 	}
 	ul {
-		padding-right: 10px;
+		padding-right: 25px;
 	}
 }
 
@@ -175,6 +189,10 @@ p,li,a {
 	}
 	.small-hide {
 		display: none;
+	}
+	.medium-4 {
+		width:100%;
+		float: none;
 	}
 }
 
