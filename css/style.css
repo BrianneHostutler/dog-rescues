@@ -45,7 +45,7 @@ table {
 /*COLORS*/
 /*GRID*/
 .row {
-  max-width: 1200px;
+  max-width: 980px;
   margin: 0 auto;
   clear: both; }
 
@@ -56,7 +56,8 @@ table {
   width: 100%; }
 
 .medium-4 {
-  width: 33.3%; }
+  width: 33.3%;
+  float: left; }
 
 .medium-3 {
   width: 25%;
@@ -86,7 +87,7 @@ h3 {
   font-family: "Fjalla One", sans-serif;
   font-size: 18px; }
 
-p {
+p, li, a {
   font-family: "Cantarell", sans-serif; }
 
 .header-wrapper {
@@ -114,6 +115,11 @@ p {
 
 .listing {
   padding: 0 20px; }
+
+.county {
+  margin-bottom: 30px; }
+  .county li {
+    margin-bottom: 10px; }
 
 /*------------------------
     MEDIA QUERIES
